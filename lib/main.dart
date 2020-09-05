@@ -25,7 +25,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final _formKey = GlobalKey<FormState>();
-  TextEditingController _nameController = TextEditingController();
+  TextEditingController _nameController = TextEditingController();   // TextEditingController _nameController = TextEditingController(text:"initial text"); 
   TextEditingController _emailController = TextEditingController();
   TextEditingController _passwordController = TextEditingController();
   bool show = true;
